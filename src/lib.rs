@@ -7,11 +7,3 @@ pub fn pub_impl(_attr: TokenStream, item: TokenStream) -> TokenStream {
     dbg!(_attr);
     item
 }
-
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
